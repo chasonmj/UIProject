@@ -44,10 +44,12 @@
 		
 		
 	}
-	.item{
+	#myCarousel{
+		max-width: 775px;
 		max-height: 500px;
-
+		overflow: hidden;
 	}
+
 	.title {
 		grid-area: title;
 		text-align: center;
