@@ -1,0 +1,48 @@
+
+.row{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+
+}
+
+.row img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%
+}
+
+.col {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+#about{
+	background: #FFFF99;
+	padding: 20px;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1.2em;
+}	
+
+#hours{
+	padding: 10px;
+	background: #FAE7B5;
+	height: 200px;
+	width: 100%;
+	border: 1px dotted black;
+	font-size: 1.5em;
+	margin: 5px;
+}
+
+#hours h2{
+	text-align: center;
+	font-size: 2em;
+}
+
+ul li{
+	list-style: none;
+}
