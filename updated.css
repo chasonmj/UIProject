@@ -5,6 +5,30 @@
 	margin-bottom: 15px;
 
 }
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand {
+  padding: 0px; /* remove bootstrap padding on floated image containers -  */ 
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px 7px 0; /* padding for image ... text needs no padding */
+}
+
+.navbar-toggle {
+  z-index: 1;
+}
 
 .row img{
 	display: block;
@@ -12,11 +36,20 @@
 	margin-right: auto;
 	width: 100%
 }
-
+.container-fluid{
+	width: 100%;
+}
 .col {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px;
+}
+#myCarousel{
+	overflow: hidden;
+}
+.carousel-caption{
+	display: inline-block;
+	vertical-align: top;
 }
 #about{
 	background: #FFFF99;
