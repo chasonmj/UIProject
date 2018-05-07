@@ -1,6 +1,3 @@
-html{
-padding: 0px 15px;
-}
 .row{
 	margin-left: auto;
 	margin-right: auto;
@@ -68,16 +65,27 @@ padding: 0px 15px;
 	background: #FAE7B5;
 	height: 200px;
 	width: 100%;
-	border: 1px dotted black;
 	font-size: 1.5em;
 	margin: 5px;
 }
 
-#hours h2{
-	text-align: center;
-	font-size: 2em;
+#reservations-hours{
+	margin-left: auto;
+	margin-right: auto;
 }
 
-ul li{
-	list-style: none;
+#testimonials{
+	background: #EDEDED;
+	padding: 10px;
+	margin: 10px;
+}
+
+blockquote{
+	font-family: 'Life Savers', cursive;
+	font-size: 1.2em;
+}
+
+.blockquote-footer{
+	font-family: 'Life Savers', cursive;
+	font-size: .9em;
 }
