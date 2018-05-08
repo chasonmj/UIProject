@@ -5,51 +5,18 @@
 	margin-bottom: 15px;
 
 }
-.brand-centered {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-.navbar-brand {
-  display: flex;
-  align-items: center;
-}
-.navbar-brand {
-  padding: 0px; /* remove bootstrap padding on floated image containers -  */ 
-}
-.navbar-brand>img {
-  height: 100%;
-  width: auto;
-  padding: 7px 14px 7px 0; /* padding for image ... text needs no padding */
-}
-
-.navbar-toggle {
-  z-index: 1;
-}
 
 .row img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%
-}
-.container-fluid{
 	width: 100%;
 }
+
 .col {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px;
-}
-#myCarousel{
-	overflow: hidden;
-}
-.carousel-caption{
-	display: inline-block;
-	vertical-align: top;
 }
 #about{
 	background: #FFFF99;
@@ -58,26 +25,37 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 1.2em;
+
+	
 }	
 
 #hours{
 	padding: 10px;
-	background: #FAE7B5;
+	background: black;
+	color: white;
 	height: 200px;
-	width: 100%;
 	font-size: 1.5em;
-	margin: 5px;
+	outline: 4px solid white;
+    outline-offset: -10px;
+	font-family: fredericka-the-great, sans-serif;
+}
+
+#hours p{
+	padding-left: 60px;
+	font-size: 2rem;
 }
 
 #reservations-hours{
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 }
 
 #testimonials{
 	background: #EDEDED;
 	padding: 10px;
-	margin: 10px;
+	font-weight: bold;
+	margin-top: 5px;
 }
 
 blockquote{
@@ -88,4 +66,29 @@ blockquote{
 .blockquote-footer{
 	font-family: 'Life Savers', cursive;
 	font-size: .9em;
+}
+
+#specials{
+	color: white;
+	font-family: fredericka-the-great, sans-serif;
+	background: black;
+	padding: 30px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	outline: 4px solid white;
+    outline-offset: -15px;
+}
+
+#toast{
+	margin-top: 30px;
+}
+
+#menus{
+	font-size: 1.5em;
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
 }
