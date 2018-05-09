@@ -1,3 +1,44 @@
+html{
+padding: 0px 15px;
+}
+
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand {
+  padding: 0px; /* remove bootstrap padding on floated image containers -  */ 
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px 7px 0; /* padding for image ... text needs no padding */
+}
+
+.navbar-toggle {
+  z-index: 1;
+}
+
+#myCarousel{
+	overflow: hidden;
+}
+.carousel-caption{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.container-fluid{
+	width: 100%;
+}
+
 .row{
 	margin-left: auto;
 	margin-right: auto;
@@ -25,15 +66,12 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 1.2em;
-
-	
 }	
 
 #hours{
 	padding: 10px;
 	background: black;
 	color: white;
-	height: 200px;
 	font-size: 1.5em;
 	outline: 4px solid white;
     outline-offset: -10px;
